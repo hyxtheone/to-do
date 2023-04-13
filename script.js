@@ -21,6 +21,7 @@ function adicionarTarefa() {
 
     else {
         p.innerHTML = texto.value
+        texto.value = ''
         li.appendChild(checkbox)
         li.appendChild(p)
         ul.appendChild(li)
