@@ -42,8 +42,10 @@ li > p {
 .input > input {
     border-radius: 20px;
     height: 35px;
-    padding: 8px;
+    padding: 10px;
     border: none;
+    background-color: #1F2431;
+    color: white
 }
 
 .input > button {
@@ -56,6 +58,9 @@ li > p {
     height: 35px;
     width: 70%;
     box-shadow: 4px 5px 15px 3px rgba(0,0,0,0.2);
+    background-color: #1F2431;
+    color: white
+    
 }
 
 .input > button:hover {
@@ -74,5 +79,8 @@ li > p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    
 }
+
+.li input[type='checkbox']:hover {
+    cursor: pointer;
